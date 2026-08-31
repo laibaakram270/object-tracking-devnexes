@@ -2,9 +2,6 @@
  
 It performs real-time object detection, tracking, and counting using YOLOv8 and SORT algorithm.
 
-## 📹 Demo Video
-[Add your Loom/Google Drive demo link here after recording]
-
 ## 🎯 Features - 4 Week Implementation
 
 ### Week 1: Video Ingestion & YOLO Detection
@@ -36,5 +33,27 @@ It performs real-time object detection, tracking, and counting using YOLOv8 and 
 
 1. Clone the repository
 ```bash
-git clone https://
+git clone https://https://github.com/laibaakram270/object-tracking-devnexes
 cd object-tracking-devnexes
+```
+2. Install dependencies
+ ```bash
+pip install -r requirements.txt
+```
+3. Run the project
+ ```bash
+python main.py
+```
+📊 Output
+
+The system displays:
+
+Green bounding boxes with persistent IDs
+
+Yellow virtual counting line
+
+Real-time IN/OUT/
+
+TOTAL counters
+
+FPS counter
